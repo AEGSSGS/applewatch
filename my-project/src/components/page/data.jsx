@@ -16,19 +16,19 @@ const obj=[
         {
                 Middle_page:[
                         {
-                                id:"2",
+                                id:2,
                                 title:"Know your runs. In and out.",
                                 text:"Train smarter with more in-run stats. Want to compare a run to your last five? Just swipe left. Mark splits by selecting pause or using gestures, like tapping the screen or double-clicking the side button. And get a full post-run report, including elevation.",
                                 img: "img"
                         },
                         {
-                                id:"2",
+                                id:3,
                                 title:"Run in good spirits.",
                                 text:"A little support can go a long way. You can receive encouraging emoji from friends. And reminders triggered by your friends’ shared activity, the current weather, or your own history give you every reason to run.",
                                 img: "img"
                         },
                         {
-                                id:"3",
+                                id:4,
                                 title:"Run in good spirits.",
                                 text:"A little support can go a long way. You can receive encouraging emoji from friends. And reminders triggered by your friends’ shared activity, the current weather, or your own history give you every reason to run.",
                                 href:"#"

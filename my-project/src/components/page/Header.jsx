@@ -8,7 +8,7 @@ export default function Header() {
         <div className="nav__inner">
 
           <a href="./index.html" className="nav__logo">
-            <img classNameName="nav__img" src={img1} alt="Apple" />
+            <img className="nav__img" src={img1} alt="Apple" />
           </a>
 
           <ul className="nav__list">

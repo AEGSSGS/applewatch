@@ -5,7 +5,7 @@ export default function Text_block() {
                 <>
                         {obj[1].Middle_page.map((items) => {
                                 return (
-                                        <div className="card">
+                                        <div className="card" key={items.id}>
                                                 <h2 className="card__title">{items.title}</h2>
                                                 <p className="card__text">{items.text}</p>
                                                 {items.img ? <div className="dots">
