@@ -9,9 +9,9 @@ export default function Footer() {
         }
         return (
                 <>
-                        <div class="control" id="services">
+                        <div className="control" id="services">
 
-                                <div class="container control__container">
+                                <div className="container control__container">
 
                                      <Card2 title={arr.title} text={arr.text} btn={arr.btn}/>   
 

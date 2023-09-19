@@ -10,14 +10,14 @@ export default function Second_page() {
   }
   return (
     <>
-        <div class="info" id="offers">
+        <div className="info" id="offers">
 
-<div class="container info__container">
+<div className="container info__container">
     
    <Card title={arr.title} text={arr.text} btn={arr.btn}/>
     
-    <div class="info__img-box">
-        <img class="info__img" src={img1} alt="Band"/>
+    <div className="info__img-box">
+        <img className="info__img" src={img1} alt="Band"/>
     </div>
 
 </div>

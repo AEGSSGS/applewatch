@@ -4,9 +4,9 @@ import Text_block2 from './page/Text_block2'
 export default function Middle_page() {
         return (
                 <>
-                        <div class="comfort" id="about">
+                        <div className="comfort" id="about">
 
-                                <div class="container comfort__container">
+                                <div className="container comfort__container">
 
                                         <Text_block />
                                         <Text_block2/>

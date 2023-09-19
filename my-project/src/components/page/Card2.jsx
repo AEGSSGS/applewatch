@@ -4,13 +4,13 @@ export default function Card2({title, text, btn}) {
         return (
                 <>
                         
-                                        <div class="control__box">
+                                        <div className="control__box">
 
-                                                <h2 class="control__title titles">{title} </h2>
+                                                <h2 className="control__title titles">{title} </h2>
 
-                                                <p class="control__text">{text}</p>
+                                                <p className="control__text">{text}</p>
 
-                                                <div href="#home" class=" control__btn">
+                                                <div href="#home" className=" control__btn">
                                                         <Btn>{btn}</Btn>
                                                 </div>
 

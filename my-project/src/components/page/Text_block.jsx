@@ -5,25 +5,25 @@ export default function Text_block() {
                 <>
                         {obj[1].Middle_page.map((items) => {
                                 return (
-                                        <div class="card">
-                                                <h2 class="card__title">{items.title}</h2>
-                                                <p class="card__text">{items.text}</p>
-                                               {items.img?  <div class="dots">
-                                                        <span class="box"></span>
-                                                        <span class="box"></span>
-                                                        <span class="box"></span>
+                                        <div className="card">
+                                                <h2 className="card__title">{items.title}</h2>
+                                                <p className="card__text">{items.text}</p>
+                                                {items.img ? <div className="dots">
+                                                        <span className="box"></span>
+                                                        <span className="box"></span>
+                                                        <span className="box"></span>
                                                 </div> : null}
-                                                {items.href ? <div class="more-wrap">
+                                                {items.href ? <div className="more-wrap">
 
-<a href={items.href} class="more">
+                                                        <a href={items.href} className="more">
 
-        <span class="more__line"></span>
+                                                                <span className="more__line"></span>
 
-        <span class="more__text">More link</span>
+                                                                <span className="more__text">More link</span>
 
-</a>
+                                                        </a>
 
-</div> : null}
+                                                </div> : null}
                                         </div>
                                 )
                         })}

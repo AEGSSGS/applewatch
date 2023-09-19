@@ -10,14 +10,14 @@ export default function Section() {
         }
         return (
                 <>
-                        <div class="hero" id="home">
+                        <div className="hero" id="home">
 
-                                <div class="container hero__container">
+                                <div className="container hero__container">
 
                                         <Card title={info.title} text={info.text}  btn={info.btn} btn2={info.btn2}/>
 
-                                        <div class="hero__box">
-                                                <img src={img1} alt="Watch" class="hero__img"/>
+                                        <div className="hero__box">
+                                                <img src={img1} alt="Watch" className="hero__img"/>
                                         </div>
 
                                 </div>
